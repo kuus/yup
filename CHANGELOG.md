@@ -1,3 +1,18 @@
+# [Unreleased](https://github.com/jquense/yup/compare/v1.0.0-beta.4...ad295ec7f149a72ba0b625428a095db696471f73) (2022-06-28)
+
+
+### Bug Fixes
+
+* **build:** type errors ([ad295ec](https://github.com/jquense/yup/commit/ad295ec7f149a72ba0b625428a095db696471f73))
+* coarce -> coerce ([#1677](https://github.com/jquense/yup/issues/1677)) ([99aa257](https://github.com/jquense/yup/commit/99aa25787a8ff15fe42e54db88ec3ed547357302))
+* **docs:** correct typo "coarce" to "coerce" ([#1654](https://github.com/jquense/yup/issues/1654)) ([f29ff71](https://github.com/jquense/yup/commit/f29ff71e4ae04927d85a00a993a014de652ae9fe))
+* **errors:** throw errors only during dev, improve build size by helping minifiers with process.env.NODE_ENV check ([8128bb9](https://github.com/jquense/yup/commit/8128bb93855fe655785214ed5f3ee4725eafc143))
+* **types:** export useful types https://github.com/jquense/yup/issues/1700 ([59f5065](https://github.com/jquense/yup/commit/59f506528c00e7e22803b25cc75860fd863b3b26))
+
+
+
+
+
 # [1.0.0-beta.4](https://github.com/jquense/yup/compare/v1.0.0-beta.3...v1.0.0-beta.4) (2022-04-10)
 
 

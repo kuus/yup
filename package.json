@@ -31,9 +31,9 @@
     "url": "https://github.com/jquense/yup/issues"
   },
   "homepage": "https://github.com/jquense/yup",
-  "release": {
+  "publishConfig": {
     "conventionalCommits": true,
-    "publishDir": "lib"
+    "directory": "lib"
   },
   "prettier": {
     "singleQuote": true,
