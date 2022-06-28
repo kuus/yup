@@ -1,5 +1,5 @@
 {
-  "name": "yup",
+  "name": "@kuus/yup",
   "version": "1.0.0-beta.4",
   "description": "Dead simple Object schema validation",
   "main": "lib/index.js",
@@ -17,7 +17,6 @@
     "release": "rollout",
     "build:dts": "yarn tsc --emitDeclarationOnly -p . --outDir dts",
     "build": "rm -rf dts && yarn build:dts && yarn rollup -c rollup.config.js  && yarn toc",
-    "prepare": "yarn build",
     "prepublishOnly": "yarn build"
   },
   "repository": {

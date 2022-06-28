@@ -64,7 +64,7 @@ export default class DateSchema<
     let param: Date | Ref<Date>;
 
     if (!Ref.isRef(ref)) {
-      let cast = this.cast(ref);
+      let cast = this.cast(ref) as Date;
       if (process.env.NODE_ENV !== "production") {
         if (!this._typeCheck(cast))
           throw new TypeError(
