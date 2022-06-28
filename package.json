@@ -33,7 +33,8 @@
   "homepage": "https://github.com/jquense/yup",
   "publishConfig": {
     "conventionalCommits": true,
-    "directory": "lib"
+    "directory": "lib",
+    "access": "public"
   },
   "prettier": {
     "singleQuote": true,
